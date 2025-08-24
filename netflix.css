@@ -201,6 +201,12 @@ body {
   object-fit: cover;
   z-index: 1;
 }
+.feature-media img[src$="children.png"],
+.feature-media img[alt="Kids"] {
+  position: relative !important;
+  z-index: 9999 !important;
+  transform: translateZ(0);
+}
 
 /* TV Section Video Positioning */
 .tv-section .feature-media video {
